@@ -1,7 +1,30 @@
 aid: hyper-4
 name: Hyper 4
-description: Hyper 4 is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Hyper (heyhyper.ai) is a Y Combinator-backed startup building "the self-driving
+  company brain" — a knowledge-management platform that assembles a centralized,
+  self-maintaining knowledge graph from a team's emails, Slack, GitHub, calendars,
+  and other work sources, then feeds that context back into AI agents and tools so
+  they act with accurate company memory and require fewer repeated corrections.
+  Founded in 2026 by Shalin Shah and Kanyes Thaker and based in San Francisco, the
+  company was surfaced as a Y Combinator portfolio company and added to the API
+  Evangelist network as an enrichment lead. As of this profile Hyper is very
+  early-stage, publishing only a marketing landing page at heyhyper.ai with no
+  public developer portal, API reference, SDKs, or machine-readable API surface
+  yet available; this record captures verified company identity and will be
+  re-enriched as a developer platform is published.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://heyhyper.ai/hyper-app-icon.png
 url: https://raw.githubusercontent.com/api-evangelist/hyper-4/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,35 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-founders:
+- Shalin Shah
+- Kanyes Thaker
+x-location: San Francisco, CA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- AI Agents
+- Knowledge Management
+- Knowledge Graph
+- Memory
+- Developer Tools
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hyper-4-domain-security.yml
+- type: Website
+  url: https://heyhyper.ai
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
