@@ -13,6 +13,17 @@ description: >-
   public developer portal, API reference, SDKs, or machine-readable API surface
   yet available; this record captures verified company identity and will be
   re-enriched as a developer platform is published.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
