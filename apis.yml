@@ -71,6 +71,10 @@ tags_raw:
 - Knowledge-Management
 apis: []
 common:
+- type: Pricing
+  url: https://heyhyper.ai/pricing
+- type: Plans
+  url: plans/hyper-4-plans-pricing.yml
 - url: https://heyhyper.ai/blog/
   type: Blog
 - type: DomainSecurity
