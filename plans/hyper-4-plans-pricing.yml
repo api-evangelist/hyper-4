@@ -56,3 +56,52 @@ rate_limit_statements:
 - 4M tokens / seat / mo
 - 20M tokens / seat / mo
 - A fixed 1M tokens / mo of free usage that is yours to keep.
+x-canonical:
+  generated: '2026-10-08'
+  vocabulary: all/0-working/economics/plans-canonical.yml
+  models:
+  - free
+  - metered
+  - seat
+  units:
+  - object
+  - seat
+  plans:
+  - name: Free trial
+    access: other
+    model: free
+    model_how: derived
+    units: []
+    periods:
+    - one-time
+  - name: Sprint
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: Blitz
+    access: other
+    model: seat
+    model_how: derived
+    units:
+    - seat
+    periods:
+    - month
+  - name: Enterprise
+    access: other
+    model: unstated
+    model_how: derived
+    units: []
+    periods:
+    - none
+  - name: Personal workspace
+    access: other
+    model: metered
+    model_how: derived
+    units:
+    - object
+    periods:
+    - month
