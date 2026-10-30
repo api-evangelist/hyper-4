@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Hyper 4 is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Hyper (heyhyper.ai) is a Y Combinator-backed startup building "the self-driving company brain" — a knowledge-management platform that assembles a centralized, self-maintaining knowledge graph from a team's emails, Slack, GitHub, calendars, and other work sources, then feeds that context back into AI agents and tools so they act with accurate company memory and require fewer repeated corrections. Founded in 2026 by Shalin Shah and Kanyes Thaker and based in San Francisco, the company was surfaced as a Y Combinator portfolio company and added to the API Evangelist network as an enrichment lead. As of this profile Hyper is very early-stage, publishing only a marketing landing page at heyhyper.ai with no public developer portal, API reference, SDKs, or machine-readable API surface yet available; this record captures verified company identity and will be re-enriched as a developer platform is published.
 
-Backed by: y-combinator
+**Areas:** Company · Artificial Intelligence · AI Agents · Knowledge Management · Knowledge Graph · Memory · Developer Tools · Y Combinator
+
+## Hyper 4 on APIs.io
+
+Everything profiled for Hyper 4 is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hyper-4/](https://apis.io/providers/hyper-4/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [hyper-4](https://apis.io/servers/hyper-4/hyper-4/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hyper 4 Domain Security](https://apis.io/security/hyper-4/hyper-4-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hyper 4 Plans Pricing](https://apis.io/plans/hyper-4/hyper-4-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://heyhyper.ai)
+- [Pricing](https://heyhyper.ai/pricing)
+- [Blog](https://heyhyper.ai/blog/)
+
+## API Evangelist rating
+
+**Kin Score 12.6** — emerging · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 51.7 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 2.4 |
+| Access clarity | 42.1 |
+
+**Agent readiness 12.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | verified |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+
+**Regulatory alignment 5.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hyper-4/](https://apis.io/providers/hyper-4/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Hyper 4: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hyper-4/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
